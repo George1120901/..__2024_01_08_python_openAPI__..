@@ -23,13 +23,14 @@ def alert(temp):
         try:
             response = urequests.get(url_str)            
         except:
-            print("ap出現問題")
+            print("ap出現問題")            
             reconnect()
         else:
             if response.status_code == 200:            
                 print("傳送訊息成功")
             else:
                 print("傳送失敗(make服務出問題)")
+            response.close()
         start_time = time.ticks_ms()
 
 def second1(t):
