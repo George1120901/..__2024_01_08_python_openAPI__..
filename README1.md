@@ -44,3 +44,6 @@ https://youtube.com/live/Engt3LjgKo0
 ## 2024_01_24_下午
 https://youtube.com/live/g1oshJyl414
 
+
+## open_API_實例講解
+https://youtu.be/pVF2ZbFPQKU
